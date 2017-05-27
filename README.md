@@ -1,4 +1,6 @@
 # Flat Dark Theme
+![](./screenshot/screen-1.png)
+
 
 ## Installation
 
