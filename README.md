@@ -3,8 +3,13 @@
 
 ![](./screenshot/screen-2.png)
 
-
 ## Installation
+
+### Requirements
+
+You need to enable the [User Themes](https://extensions.gnome.org/extension/19/user-themes/) GNOME Shell Extension.
+
+Follow the link and flick the switch to "on" to enable it.
 
 **If you want to install it manually:**
 
