@@ -14,17 +14,19 @@ Follow the link and flick the switch to "on" to enable it.
 **If you want to install it manually:**
 
 - Download and uncompress the zip file.
-- Move `flat-dark` to your `.themes` directory in your home directory.
+- Either move `flat-dark` to your `.themes` directory in your home directory;
+  or create a symbolic link to the folder (ctrl-shift drag does this in Nautilus).
   If the directory `.themes` does not exist create it.
 - Select "Flat Dark" as shell theme in gnomes Tweak Tool.
 
 **If you prefer to use the terminal:**
 
 ```
-cd /tmp
+mkdir ~/available-themes
+mkdir ~/.themes
+cd ~/available-themes
 git clone https://github.com/nerdbeere/flat-dark-gnome-theme
-mkdir -p ~/.themes
-mv flat-dark-gnome-theme/flat-dark ~/.themes
+ln -s ~/available-themes/flat-dark-gnome-theme/flat-dark ~/.themes/flat-dark
 ```
 
 ## Icons
